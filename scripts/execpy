@@ -1,0 +1,3 @@
+#!/bin/bash
+LANG=$1 PYTHONPATH=$PYTHONPATH:. ./scripts/pymonitorix
+

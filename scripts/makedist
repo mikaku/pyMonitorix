@@ -1,0 +1,35 @@
+#!/bin/bash
+#
+# Script to generate the final tar.gz.
+# 	- creates the .po (Portable Object) files
+#
+
+LOCALES="ca de en"
+
+clear
+echo "Generating pymonitorix.glade.h"
+intltool-extract --type=gettext/glade pymonitorix/pymonitorix.glade
+mv pymonitorix/pymonitorix.glade.h .
+echo
+
+sleep 1
+echo "Generating pymonitorix.pot"
+xgettext --language=Python --keyword=_ --keyword=N_ --output=pymonitorix.pot pymonitorix/Main.py pymonitorix.glade.h
+
+echo
+sleep 1
+mkdir -p locale
+echo "Generating mo files"
+for locale in $LOCALES; do
+	if [ ! -f po/$locale.po ] ; then
+		msginit --input=pymonitorix.pot --locale=$locale --output=po/$locale.po
+	fi
+	mkdir -p locale/$locale
+	msgfmt --output-file=locale/$locale/pymonitorix.mo po/$locale.po
+	echo -n "$locale "
+done
+
+echo
+echo "--------- creating tar.gz for general distribution ---------"
+python setup.py sdist
+

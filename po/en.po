@@ -1,0 +1,135 @@
+# English translations for pymonitorix package.
+# Copyright (C) 2009 THE pymonitorix'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pymonitorix package.
+# Jordi Sanfeliu <jordi@fibranet.cat>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pymonitorix 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-08 16:19+0200\n"
+"PO-Revision-Date: 2009-09-03 15:01+0200\n"
+"Last-Translator: Jordi Sanfeliu <jordi@fibranet.cat>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pymonitorix/Main.py:348
+msgid "Invalid URL."
+msgstr "Invalid URL."
+
+#: pymonitorix/Main.py:386
+msgid "Unable to retrieve Monitorix related information."
+msgstr "Unable to retrieve Monitorix related information."
+
+#: pymonitorix.glade.h:1
+msgid "<b>Remote Server</b>"
+msgstr "<b>Remote Server</b>"
+
+#: pymonitorix.glade.h:2
+msgid "<b>Time Range</b>"
+msgstr "<b>Time Range</b>"
+
+#: pymonitorix.glade.h:3
+msgid "<sub>(i.e. http://www.fibranet.cat/monitorix/)</sub>"
+msgstr "<sub>(i.e. http://www.fibranet.cat/monitorix/)</sub>"
+
+#: pymonitorix.glade.h:4
+msgid ""
+"A panel application for monitoring remote servers with Monitorix installed."
+msgstr ""
+"A panel application for monitoring remote servers with Monitorix installed."
+
+#: pymonitorix.glade.h:5
+msgid "Copyright 2009 Jordi Sanfeliu"
+msgstr "Copyright 2009 Jordi Sanfeliu"
+
+#: pymonitorix.glade.h:7
+msgid "Jordi Sanfeliu <jordi@fibranet.cat>"
+msgstr "Jordi Sanfeliu <jordi@fibranet.cat>"
+
+#: pymonitorix.glade.h:8
+msgid ""
+"Licensed under the GNU General Public License Version 2\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under\n"
+"the terms of the GNU General Public License as published by the Free\n"
+"Software Foundation; either version 2 of the License, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT\n"
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n"
+"for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along\n"
+"with this program; if not, write to the Free Software Foundation, Inc., 51\n"
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"Licensed under the GNU General Public License Version 2\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under\n"
+"the terms of the GNU General Public License as published by the Free\n"
+"Software Foundation; either version 2 of the License, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT\n"
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n"
+"for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along\n"
+"with this program; if not, write to the Free Software Foundation, Inc., 51\n"
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+
+#: pymonitorix.glade.h:23
+msgid "Open a _location ..."
+msgstr "Open a _location ..."
+
+#: pymonitorix.glade.h:24
+msgid "Preferences"
+msgstr "Preferences"
+
+#: pymonitorix.glade.h:25
+msgid "URL of the remote server:"
+msgstr "URL of the remote server:"
+
+#: pymonitorix.glade.h:26
+msgid "_Daily graph (last 24 hours)"
+msgstr "_Daily graph (last 24 hours)"
+
+#: pymonitorix.glade.h:27
+msgid "_Monthly graph (last month)"
+msgstr "_Monthly graph (last month)"
+
+#: pymonitorix.glade.h:28
+msgid "_Weekly graph (last week)"
+msgstr "_Weekly graph (last week)"
+
+#: pymonitorix.glade.h:29
+msgid "_Yearly graph (last year)"
+msgstr "_Yearly graph (last year)"
+
+#: pymonitorix.glade.h:30
+msgid "button1"
+msgstr "button1"
+
+#: pymonitorix.glade.h:31
+msgid "gtk-cancel"
+msgstr "gtk-cancel"
+
+#: pymonitorix.glade.h:32
+msgid "gtk-ok"
+msgstr "gtk-ok"
+
+#: pymonitorix.glade.h:33
+msgid "http://www.monitorix.org"
+msgstr "http://www.monitorix.org"
+
+#: pymonitorix.glade.h:34
+msgid "pyMonitorix"
+msgstr "pyMonitorix"

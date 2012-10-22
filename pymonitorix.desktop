@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pyMonitorix
+Name[ca]=pyMonitorix
+Name[de]=pyMonitorix
+Comment=Monitorize your remote servers
+Comment[ca]=Monitoritzeu els vostres servidors
+Comment[de]=entfernte Server überwachen
+Exec=pymonitorix
+Type=Application
+Icon=pymonitorix.png
+Terminal=false
+Categories=Network
+StartupNotify=false
+Version=0.1.0

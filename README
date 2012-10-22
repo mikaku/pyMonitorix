@@ -1,0 +1,36 @@
+About pyMonitorix
+=================
+pyMonitorix is an applet application that acts as a fronted of the Monitorix
+application installed on a local or remote server(s). It is useful for those
+that want to monitorize their servers without having to keep up and running a
+browser for doing that.
+
+
+Requirements
+============
+pyMonitorix is a GNOME application, written in Python. You will need to have
+GNOME, Python and the PyGTK and gnome-python libraries installed in order to
+run it.
+
+Though pyMonitorix has only been tested on Linux, it should run on other
+UNIX-like Operating Systems without modification (feedback would be
+appreciated).
+
+GNOME, Python and PyGTK are available pre-packaged with most Linux distributions
+. Alternatively they may be obtained from the following sites:
+
+  http://www.gnome.org/
+  http://www.python.org/
+  http://pygtk.org/
+
+See po/README for help on translating pyMonitorix to your own language.
+
+
+License and Copyright
+=====================
+pyMonitorix is distributed under the terms of the GNU General Public License.
+See the included file "COPYING".
+
+Copyright (C) 2009 Jordi Sanfeliu (Fibranet NSP, SL)
+jordi@fibranet.cat
+http://www.monitorix.org

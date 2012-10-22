@@ -1,0 +1,17 @@
+include AUTHORS
+include COPYING
+include README
+include Changes
+include setup.py
+include pymonitorix/__init__.py
+include pymonitorix/Main.py
+include pymonitorix/pymonitorix.glade
+include pymonitorix/pymonitorix.png
+include pymonitorix/pymonitorix19x17.png
+include pymonitorix/pymonitorix128x128.png
+include scripts/pymonitorix
+include pymonitorix.desktop
+include pymonitorix.spec
+include pymonitorix.pot
+include locale/*/*
+include po/*

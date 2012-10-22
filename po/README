@@ -1,0 +1,14 @@
+To translate pyMonitorix into a different language
+==================================================
+
+1) Copy pymonitorix.pot to <LOCALE>.po.
+	i.e: de.po
+2) Edit <LOCALE>.po file inserting the translations of the 'msgid' lines into
+   the 'msgstr' lines, just below them.
+3) Save it when you're done.
+
+Submit your translation for inclusion in the next pyMonitorix release.
+Email your <LOCALE>.po file to me: jordi@fibranet.cat.
+
+Thanks for your contribution.
+

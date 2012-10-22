@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-09 04:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pymonitorix/Main.py:348
+msgid "Invalid URL."
+msgstr ""
+
+#: pymonitorix/Main.py:386
+msgid "Unable to retrieve Monitorix related information."
+msgstr ""
+
+#: pymonitorix.glade.h:1
+msgid "<b>Remote Server</b>"
+msgstr ""
+
+#: pymonitorix.glade.h:2
+msgid "<b>Time Range</b>"
+msgstr ""
+
+#: pymonitorix.glade.h:3
+msgid "<sub>(i.e. http://www.fibranet.cat/monitorix/)</sub>"
+msgstr ""
+
+#: pymonitorix.glade.h:4
+msgid ""
+"A panel application for monitoring remote servers with Monitorix installed."
+msgstr ""
+
+#: pymonitorix.glade.h:5
+msgid "Copyright 2009 Jordi Sanfeliu"
+msgstr ""
+
+#: pymonitorix.glade.h:7
+msgid ""
+"Jordi Sanfeliu <jordi@fibranet.cat>\n"
+"Markus Rennings <mren@mrmx.de>\n"
+msgstr ""
+
+#: pymonitorix.glade.h:10
+msgid ""
+"Licensed under the GNU General Public License Version 2\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under\n"
+"the terms of the GNU General Public License as published by the Free\n"
+"Software Foundation; either version 2 of the License, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT\n"
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n"
+"for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along\n"
+"with this program; if not, write to the Free Software Foundation, Inc., 51\n"
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+
+#: pymonitorix.glade.h:25
+msgid "Open a _location ..."
+msgstr ""
+
+#: pymonitorix.glade.h:26
+msgid "Preferences"
+msgstr ""
+
+#: pymonitorix.glade.h:27
+msgid "URL of the remote server:"
+msgstr ""
+
+#: pymonitorix.glade.h:28
+msgid "_Daily graph (last 24 hours)"
+msgstr ""
+
+#: pymonitorix.glade.h:29
+msgid "_Monthly graph (last month)"
+msgstr ""
+
+#: pymonitorix.glade.h:30
+msgid "_Weekly graph (last week)"
+msgstr ""
+
+#: pymonitorix.glade.h:31
+msgid "_Yearly graph (last year)"
+msgstr ""
+
+#: pymonitorix.glade.h:32
+msgid "button1"
+msgstr ""
+
+#: pymonitorix.glade.h:33
+msgid "gtk-cancel"
+msgstr ""
+
+#: pymonitorix.glade.h:34
+msgid "gtk-ok"
+msgstr ""
+
+#: pymonitorix.glade.h:35
+msgid "http://www.monitorix.org"
+msgstr ""
+
+#: pymonitorix.glade.h:36
+msgid "pyMonitorix"
+msgstr ""
